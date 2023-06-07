@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background: #cccfff;
+            align-items: center;
+        }
+
+        #cipri {
+            font-size: 12em;
+            color: rgb(100, 100, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <p id="cipri"></p>
+
+    <script>
+
+        setInterval(ricxvi, 2000);
+
+        var x = 1;
+
+        function ricxvi() {
+
+            if (x <= 20) {
+
+                document.getElementById("cipri").innerHTML = x;
+                x++;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
